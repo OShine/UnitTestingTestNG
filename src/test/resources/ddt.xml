@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="All tests" verbose="1" >
+    <test name="All tests" >
+
+        <parameter name="x" value="10"/>
+        <parameter name="y" value="0"/>
+        <parameter name="expected" value="0"/>
+
+        <classes>
+            <class name="ParametrizedTest" />
+        </classes>
+    </test>
+</suite>

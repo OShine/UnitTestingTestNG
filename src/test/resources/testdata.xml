@@ -1,0 +1,7 @@
+<TestData>
+    <UserInfo>
+        <x>10</x>
+        <y>0</y>
+        <expected>0</expected>
+    </UserInfo>
+</TestData>
